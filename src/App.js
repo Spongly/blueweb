@@ -31,8 +31,6 @@ import {
   ProjectCard
 } from './cards.js';
 
-import Projects from './components/front/projects.js'
-
 function App() {
 
   const [card1, setCard1] = useState(1)
