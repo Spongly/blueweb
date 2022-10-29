@@ -25,7 +25,7 @@ export default function Header(){
       <div className="headerContainer">
         <div className="logo">
           <span>
-            <Link to="/">Blue Edge</Link>
+            <Link to="/">Spongly</Link>
           </span>
         </div>
         <div className="headNav">
@@ -34,9 +34,9 @@ export default function Header(){
               <Link to="/">Home</Link>
             </span>
             <span>
-              <a href="https://github.com/blueedgetechno" target="_blank" rel="noreferrer">Github</a>
+              <a href="https://github.com/spongly" target="_blank" rel="noreferrer">Github</a>
             </span>
-            <span><a href="mailto:blueedgetechno@gmail.com" target="_blank" rel="noreferrer">Contact</a></span>
+            <span><a href="mailto:spongly@duck.com" target="_blank" rel="noreferrer">Contact</a></span>
           </div>
           <div className="sideBar">
             <DehazeIcon className="sideIcon" onClick={handleClick}/>
@@ -51,9 +51,9 @@ export default function Header(){
           >
             <MenuItem><Link to="/">Home</Link></MenuItem>
             <MenuItem>
-              <a href="https://github.com/blueedgetechno">Github</a>
+              <a href="https://github.com/spongly">Github</a>
             </MenuItem>
-            <MenuItem><a href="mailto:blueedgetechno@gmail.com">Contact</a></MenuItem>
+            <MenuItem><a href="mailto:spongly@duck.com">Contact</a></MenuItem>
           </Menu>
         </div>
       </div>
