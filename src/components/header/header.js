@@ -6,7 +6,6 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faGamepad} from "@fortawesome/free-solid-svg-icons";
 
 import {Link} from 'react-router-dom';
 
@@ -35,9 +34,6 @@ export default function Header(){
               <Link to="/">Home</Link>
             </span>
             <span>
-              <Link to="/unescape">Unescape <FontAwesomeIcon icon={faGamepad} /></Link>
-            </span>
-            <span>
               <a href="https://github.com/blueedgetechno" target="_blank" rel="noreferrer">Github</a>
             </span>
             <span><a href="mailto:blueedgetechno@gmail.com" target="_blank" rel="noreferrer">Contact</a></span>
@@ -54,7 +50,6 @@ export default function Header(){
             onClose={handleClose}
           >
             <MenuItem><Link to="/">Home</Link></MenuItem>
-            <MenuItem><Link to="/unescape">Unescape</Link></MenuItem>
             <MenuItem>
               <a href="https://github.com/blueedgetechno">Github</a>
             </MenuItem>
