@@ -141,7 +141,27 @@ export const ProjectCard = (props)=>{
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">BlueBlogs</span>: <span className="cm-string">"A social blogging platform for nerds"</span></span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span className="cm-operator">+</span><span className="cm-string">"made in flask"</span>,</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;</span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">TheINTELLECTS</span>: <span className="cm-string">"A platform meant for engineering"</span></span></pre>
+        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡤⠔⠒⠚⠉⠓⠒⢤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠀⣠⡄
+            ⢀⣤⡀⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠈⠓⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣯⣴⣿⠃
+            ⠀⠹⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠃⠀⠀⠀⠀⢀⣄⣀⠀⠀⠀⠀⠀⠈⢳⡀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣛⣿⠇⠀
+            ⠀⠀⠈⠳⣯⣿⡄⠀⠀⠀⠀⠀⠀⠀⢠⡇⠀⠀⠀⠀⣼⣿⣤⣴⣽⣦⡀⠀⠀⠀⠈⣇⠀⠀⠀⠀⠀⠀⢀⣶⣿⣿⠋⠀⠀⠀
+            ⠀⠀⠀⠀⢸⣿⣽⣆⠀⠀⠀⠀⠀⠀⢸⡁⠀⠀⠀⢀⣿⣿⣿⣿⣅⢹⣧⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⣼⡿⣿⣿⡀⠀⠀⠀
+            ⠀⠀⠀⠀⢸⣿⡟⢈⠳⡀⠀⠀⠀⠀⠘⡇⠀⠀⠀⢸⣿⣿⣿⣷⣮⣾⣿⣇⠀⠀⢀⡏⠀⠀⠀⠀⠀⣼⣿⣷⣹⣿⡏⠀⠀⠀
+            ⠀⠀⠀⠀⣾⢻⣇⣸⢰⣸⢄⡀⠀⠀⠀⠹⡄⠀⠀⣼⣿⣿⣿⣿⡿⢸⣿⡿⣄⢀⡾⠁⠀⣀⣀⣴⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀
+            ⠀⠀⠀⠀⢻⣿⣟⡋⣾⣿⣮⣿⣶⡤⣄⣀⣹⢦⣼⠿⠟⣿⠿⡟⢷⡊⠙⠿⡛⢻⡿⣖⣺⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀
+            ⠀⠀⠀⠀⠈⠻⣿⣷⣿⣿⣿⣿⣿⣿⡖⠂⣰⣼⣶⡄⠀⣧⠀⠳⣸⠃⢀⠀⣽⡘⡿⣾⣿⣿⣿⣿⣿⣿⣿⡿⠁⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣼⣿⣿⡇⣷⣀⣾⣠⣴⣥⣤⣀⡿⠋⣧⣃⣿⣿⣿⣿⣿⣿⣿⠟⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⢿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⠋⢩⣏⢻⠻⣿⣟⣿⣿⢸⣿⣿⣿⣿⡿⠃⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠿⣿⣿⣿⣿⡿⢟⣇⡏⠀⣾⢸⠘⡇⠉⢿⣿⣿⣧⣿⣿⡟⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿⣷⢸⣿⢹⠀⣿⢸⠀⠓⡆⠸⣿⡏⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣋⣿⢻⣾⢸⠈⠀⣿⢸⡀⠀⢻⠀⡿⣿⣿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣆⣿⣿⣇⠀⣿⢾⡇⠀⣸⠀⢇⣿⣾⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⡏⣿⣀⣿⡿⣿⡸⣿⠃⢸⢿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⡇⠀⢸⣿⡏⣿⣧⡀⢀⣸⢸⣿⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡏⣿⣿⣿⣇⣿⣿⡀⠈⣿⣷⢸⣿⣿⠘⣿⣾⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢹⣷⣿⣿⣿⣷⢹⣿⣧⠀⣿⣿⡇⣿⣿⡆⣿⡇⣿⢹⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣿⣿⣿⣿⡀⠻⠿⠆⣿⣿⣿⡈⢻⡇⠛⡇⠿⠿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⠿⠃⠀⠀⠀⠸⢿⣿⠇⠈⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</span>: <span className="cm-string">"A platform meant for engineering"</span></span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}>{" "}<span className="cm-tab" role="presentation"Cm-text="	">{" "}</span><span className="cm-tab" role="presentation"Cm-text="	">{"   "}</span> <span className="cm-operator">+</span><span className="cm-string">"pupils made in expressJs, ejs &amp; mongoDB"</span>,</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">codeblue</span>:<span className="cm-string">"Atom package to help during codeforces"</span></span></pre>
