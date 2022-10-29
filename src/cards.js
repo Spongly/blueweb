@@ -137,9 +137,9 @@ export const ProjectCard = (props)=>{
         <div className="navCircle green"></div>
       </div>
       <div className="procode">
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}><span className="cm-keyword">const</span> <span className="cm-def">projects</span> <span className="cm-operator">=</span> {"{"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">BlueBlogs</span>: <span className="cm-string">"A social blogging platform for nerds"</span></span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span className="cm-operator">+</span><span className="cm-string">"made in flask"</span>,</span></pre>
+        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}><span className="cm-keyword"></span> <span className="cm-def"></span> <span className="cm-operator">=</span> {"{"} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></pre>
+        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property"></span>: <span className="cm-string">""</span></span></pre>
+        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span className="cm-operator">+</span><span className="cm-string">""</span>,</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡤⠔⠒⠚⠉⠓⠒⢤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠀⣠⡄
             ⢀⣤⡀⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠔⠉⠀⠀⠀⠀⠀⠀⠀⠀⠈⠓⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣯⣴⣿⠃
@@ -161,15 +161,15 @@ export const ProjectCard = (props)=>{
             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡏⣿⣿⣿⣇⣿⣿⡀⠈⣿⣷⢸⣿⣿⠘⣿⣾⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢹⣷⣿⣿⣿⣷⢹⣿⣧⠀⣿⣿⡇⣿⣿⡆⣿⡇⣿⢹⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣿⣿⣿⣿⡀⠻⠿⠆⣿⣿⣿⡈⢻⡇⠛⡇⠿⠿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⠿⠃⠀⠀⠀⠸⢿⣿⠇⠈⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</span>: <span className="cm-string">"A platform meant for engineering"</span></span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}>{" "}<span className="cm-tab" role="presentation"Cm-text="	">{" "}</span><span className="cm-tab" role="presentation"Cm-text="	">{"   "}</span> <span className="cm-operator">+</span><span className="cm-string">"pupils made in expressJs, ejs &amp; mongoDB"</span>,</span></pre>
+            ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⠿⠃⠀⠀⠀⠸⢿⣿⠇⠈⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</span>: <span className="cm-string">""</span></span></pre>
+        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}><span className="cm-tab" role="presentation"Cm-text="	"></span><span className="cm-tab" role="presentation"Cm-text="	"></span> <span className="cm-operator"></span><span className="cm-string">"&amp; "</span>,</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;</span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">codeblue</span>:<span className="cm-string">"Atom package to help during codeforces"</span></span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}>{" "}<span className="cm-tab" role="presentation"Cm-text="	">{" "}</span><span className="cm-tab" role="presentation"Cm-text="	">{"   "}</span> &nbsp; <span className="cm-operator">+</span><span className="cm-string">"contest, made in ReactJs and Less.js"</span>,</span></pre>
+        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property"></span>:<span className="cm-string"></span></span></pre>
+        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}><span className="cm-tab" role="presentation"Cm-text="	"></span><span className="cm-tab" role="presentation"Cm-text="	"></span> &nbsp; <span className="cm-operator"></span><span className="cm-string">""</span>,</span></pre>
         <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;</span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property">BlueChats</span>: <span className="cm-string">"A desktop messaging application"</span></span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}>{" "}<span className="cm-tab" role="presentation"Cm-text="	">{" "}</span><span className="cm-tab" role="presentation"Cm-text="	">{"   "}</span> &nbsp;<span className="cm-operator">+</span><span className="cm-string">"made in Electron, expressJs &amp; MongoDB"</span></span></pre>
-        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}>{"}"} <span className="cm-comment">// And that's just the tip of the iceberg</span></span></pre>
+        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}> &nbsp;<span className="cm-property"></span>: <span className="cm-string"></span></span></pre>
+        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}><span className="cm-tab" role="presentation"Cm-text="	"></span><span className="cm-tab" role="presentation"Cm-text="	"></span> &nbsp;<span className="cm-operator"></span><span className="cm-string">"  &amp; "</span></span></pre>
+        <pre className="CodeMirror-line" role="presentation"><span role="presentation" style={{paddingRight: '0.1px'}}><span className="cm-comment"></span></span></pre>
       </div>
     </div>
   )
