@@ -22,19 +22,19 @@ export default function Footer(){
         </span>
         <div className="socialinks">
           <span>Follow me</span>
-          <a href="https://github.com/blueedgetechno" target="_blank">
+          <a href="https://github.com/spongly" target="_blank">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="https://twitter.com/blueedgetechno" target="_blank">
+          <a href="https://twitter.com/spongly" target="_blank">
             <FontAwesomeIcon icon={faTwitter} />
           </a>
-          <a href="mailto:blueedgetechno@gmail.com" target="_blank">
+          <a href="mailto:spongly@duck.com" target="_blank">
             <FontAwesomeIcon icon={faEnvelope} />
           </a>
-          <a href="https://www.behance.net/blueedgetechno" target="_blank">
+          <a href="https://www.behance.net/spongly" target="_blank">
             <FontAwesomeIcon icon={faBehanceSquare} />
           </a>
-          <a href="https://codepen.io/blueedgetechno" target="_blank">
+          <a href="https://codepen.io/spongly" target="_blank">
             <FontAwesomeIcon icon={faCodepen} />
           </a>
         </div>
