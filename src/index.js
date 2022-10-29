@@ -8,7 +8,6 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import Header from './components/header/header'
 import Footer from './components/footer/footer'
-import Unescape from './components/unescape/unescape'
 
 import './index.css';
 import './assets/css/blobz.css';
@@ -24,7 +23,6 @@ ReactDOM.render(
         <Header/>
         <Switch>
           {/* <Route exact path='/' component = {App}/> */}
-          <Route exact path='/unescape' component = {Unescape}/>
           <Route component={App} />
         </Switch>
         <Footer/>
